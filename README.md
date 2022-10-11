@@ -54,10 +54,10 @@ Script ini untuk semua orang, bukan untuk Dijual. Jika dijual neraka menunggumu 
 ## ```Heroku Buildpack```
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImYanXiao/Elaina-MultiDevice)
 
-| BuildPack | LINK |
+BuildPack
 |--------|--------|
-| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [here](https://github.com/rocketmobile/heroku-buildpack-imagemagick.git) |
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+https://github.com/rocketmobile/heroku-buildpack-imagemagick.git
 
 ## TERMUX USER
 ```bash
