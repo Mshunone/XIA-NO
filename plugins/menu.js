@@ -326,7 +326,7 @@ let tek = `✧────···[ DASHBOARD ]···────✧
 │「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
 └┬✥ 「 *${ucapan()} ${conn.getName(m.sender)}* 」
 ╭┤━━━━━━━━━━━━━━┈─✧
-┴☰ INFO BOT
+┴  ☰ INFO BOT ☰
 │📦 Aktif selama ${mpt}
 │📦 Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │📦 Prefix : [ ${_p} ]
