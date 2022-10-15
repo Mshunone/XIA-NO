@@ -323,27 +323,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 
 let tek = `✧────···[ Dashboard ]···────✧
 *${ucapan()} ${conn.getName(m.sender)}*
-┌––––––––––––––––––❐
-│「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
-└┬❏ 「 ${conn.getName(m.sender)} 」
-┌┤━━━━━━━━━━━━━━━━┈─⳹
-│  「 USER INFO 」
-│${emot} ᴛᴀɢs: @${m.sender.split`@`[0]}
-│${emot} sᴛᴀᴛᴜs: ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-│${emot} ᴘʀᴇᴍɪᴜᴍ: ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-│${emot} ʟɪᴍɪᴛ: ${usrs.limit}
-│${emot} ʟᴇᴠᴇʟ: ${usrs.level}
-│${emot} ʀᴏʟᴇ: ${usrs.role}${usrs.premiumTime > 1 ? `
-├━━━━━━━━━━━━━━━━┈─⳹
-│  「 INFO BOT 」
-│${emot} ᴛɪᴍᴇ: ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-│${emot} ᴜsᴇʀs: ${Object.keys(global.db.data.users).length}
-│${emot} Aktif selama ${mpt}
-│${emot} ${Object.keys(global.db.data.users).length} Pengguna
-│${emot} ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-├━━━━━━━━━━━━━━━━┈─⳹
+╭━━━━━━━━━━━━━━━━┈─✧
+┴
+│⬡ Aktif selama ${mpt}
+│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│⬡ Prefix : [ ${_p} ]
+│⬡ *${Object.keys(global.db.data.users).length}* Pengguna
+│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+┬
+├━━━━━━━━━━━━━━━━┈─⋆
+│ ▸ *ᴀᴜᴛʜᴏʀ : 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯
+┴ ▸ *ᴏᴡɴᴇʀ :𝙆𝘼𝙃𝙁𝙄-𝙓𝘿
+✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ Jan Spam Dasar User
+│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
