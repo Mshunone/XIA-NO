@@ -258,89 +258,92 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
    
    const sections = [
    {
-	title: `${htki} ▮𝗦𝘁𝗮𝘁𝘂𝘀 」 ${htka}`,
+	title: `${htki} ▮STATUS BOT 」 ${htka}`,
 	rows: [
-	    {title: `📛)ഒ Info Bot`, rowId: ".info", description: "✧ Info nya 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯  ><"},
-	    {title: `💌)ഒ Owner`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
-	{title: `🗣)ഒ Request Fitur`, rowId: ".request", description: "✧ Request Fitur menarik ke BOT"},
-	{title: `💻)ഒ Bot Stats`, rowId: ".botinfo", description: "✧ Menampilkan Status 赤 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯 "},
-	{title: `📊)ഒ Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
-	{title: `⚡)ഒ Speed`, rowId: ".speed", description: "✧ Kecepatan Respon 赤 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯 "},
+	    {title: `👻Info Bot`, rowId: ".info", description: "✧ Info nya Bot"},
+	    {title: `👻 Owner`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
+	{title: `👻 Request Fitur`, rowId: ".request", description: "✧ Request Fitur menarik ke BOT"},
+	{title: `👻 Bot Stats`, rowId: ".botinfo", description: "✧ Menampilkan Status xia"},
+	{title: `👻 Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
+	{title: `👻 Speed`, rowId: ".speed", description: "✧ Kecepatan Respon Xia "},
 	]
     },{
-	title: `${htki} ▮𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆 」 ${htka}`,
+	title: `${htki} ▮INFO BOT 」 ${htka}`,
 	rows: [
-	    {title: `🔖 〉ɞ 『 Sewa BOT 』`, rowId: ".sewa", description: "✧ Menampilkan list harga sewa BOT"},
-	    {title: `📑 〉ɞ 『 Buy Script BOT 』`, rowId: ".owner", description: "✧ Menampilkan list harga script BOT"},
-	    {title: `🌟 〉ɞ 『 UP Premium 』`, rowId: ".premium", description: "✧ Menampilkan list harga upgrade premium"},
-	    {title: `🥞 〉ɞ 『 Get Hadiah 』`, rowId: ".daily", description: '✧ Mau hadiah nggak kak?... >.<'},
-	{title: `✨ 〉ɞ 『 Rating 』`, rowId: ".rate", description: '✧ Jangan kasih rate rendah dong :/'},
-	{title: `🗳️ 〉ɞ 『 My Profile 』`, rowId: ".pp", description: '✧ Siapa ya kamu?...'},
+	    {title: `『 Sewa BOT 』`, rowId: ".sewa", description: "➣ list harga sewa BOT"},
+	    {title: `『 Buy Script BOT 』`, rowId: ".owner", description: "➣ list harga script BOT"},
+	    {title: `『 UP Premium 』`, rowId: ".premium", description: "➣ list harga upgrade premium"},
+	    {title: `『 Get Hadiah 』`, rowId: ".daily", description: '➣ Mau hadiah nggak?'},
+	{title: `『 Rating 』`, rowId: ".rate", description: '➣ Kasi Rate rendah Gw banned :v :/'},
+	{title: `『 My Profile 』`, rowId: ".pp", description: '➣ Siapa ya kamu?...'},
 	]
 	},{
-	title: `${htki} ▮𝗠𝗲𝗻𝘂 ${htka}`,
+	title: `${htki} ▮MENU NYA ${htka}`,
 	rows: [
-	    {title: `⫹🗒️ › 𐐪-〚 All Menu 〛-𐑂`, rowId: ".? all", description: "╰► Waduhh. Langsung semuanya (≧▽≦)"},
-	    {title: `⫹🌱 › 𐐪-〚 Rpg 〛-𐑂`, rowId: ".? rpg", description: "╰► Calon anak petualang nih... -𐑂"},
-	{title: `⫹✨ › 𐐪-〚 Exp 〛-𐑂`, rowId: ".? xp", description: "╰► Kalau dah level 100 dapat hadiah (≧▽≦)"},
-	{title: `⫹🎮 › 𐐪-〚 Game 〛-𐑂`, rowId: ".? game", description: "╰► Bg kamu main game apa?.... >-<"},
-	{title: `⫹🧩 › 𐐪-〚 Fun 〛-𐑂`, rowId: ".? fun", description: "╰► Gabut ya bang?"},
-	{title: `⫹🐚 › 𐐪-〚 Kerang 〛-𐑂`, rowId: ".? kerangajaib", description: "╰► Mau tanya apa sih bg?..."},
-	{title: `⫹📑 › 𐐪-〚 Quotes 〛-𐑂`, rowId: ".? quotes", description: "╰► Ada yg mau nyari topik nih... >-<"},
-	{title: `⫹⛩️ › 𐐪-〚 Anime 〛-𐑂`, rowId: ".? anime", description: "╰► Lah, Wibuu...-𐑂"},
-	{title: `⫹🔞 › 𐐪-〚 Nsfw 〛-𐑂`, rowId: ".? nsfw", description: "╰► Anak kecil ga boleh ya SARU TOLOL...."},
-	{title: `⫹🌟 › 𐐪-〚 Premium 〛-𐑂`, rowId: ".? premium", description: "╰► Hanya khusus users premium..."},
-	{title: `⫹🎭 › 𐐪-〚 Anonymous chat 〛-𐑂`, rowId: ".? anonymous", description: "╰► Mau ngomong sama mantan kah? >.<"},
-	{title: `⫹☪️ › 𐐪-〚 Islamic 〛-𐑂`, rowId: ".? quran", description: "╰► Tibat ya kak..."},
-	{title: `⫹🌐 › 𐐪-〚 Internet 〛-𐑂`, rowId: ".? internet", description: "╰► Ga ada google ya kak..."},
-	{title: `⫹📤️ › 𐐪-〚 Downloader 〛-𐑂`, rowId: ".? downloader", description: "╰► Jangan download yg aneh-aneh, Xixixi (≧▽≦)"},
-	{title: `⫹🃏 › 𐐪-〚 Stikers 〛-𐑂`, rowId: ".? stiker", description: "╰► Kalau bikin sticker jangan di spam ya kak..."},
-	{title: `⫹✏️ › 𐐪-〚 Nulis 〛-𐑂`, rowId: ".? nulis", description: "╰► Hati-hati ke tawan bu sri..."},
-	{title: `⫹🎵 › 𐐪-〚 Audio 〛-𐑂`, rowId: ".? audio", description: "╰► Calon remixer nih haha ></"},
-	{title: `⫹🦄 › 𐐪-〚 Group 〛-𐑂`, rowId: ".? group", description: "╰► Menu settingan buat group mu kak -𐑂"},
-	{title: `⫹👑 › 𐐪-〚 Admin 〛-𐑂`, rowId: ".? admin", description: "╰► Yg bukan admin jangan make fitur ini >-<"},
-	{title: `⫹🗃️️ › 𐐪-〚 Database 〛-𐑂`, rowId: ".? database", description: "╰► Simpen apa tuh.... >.<"},
-	{title: `⫹🧰️ › 𐐪-〚 Tools 〛-𐑂`, rowId: ".? tools", description: "╰► Butuh apa aja bot akan bantu -𐑂"},
-	{title: `️️⫹📊️ › 𐐪-〚 Info 〛-𐑂`, rowId: ".? info", description: "╰► Info lowker kak?..."},
-	{title: `⫹👩‍💻 › 𐐪-〚 Owner 〛-𐑂`, rowId: ".? owner", description: "╰► Yg bukan developer gausah nge klik fitur ini !"},
-	{title: `⫹🎨 › 𐐪-〚 Maker 〛-𐑂`, rowId: ".? maker", description: "╰► Bikin logo apa ya enaknya?"},
-	{title: `⫹💌 › 𐐪-〚 Store 〛-𐑂`, rowId: ".? store", description: "╰► Anak jebeh ya kamu kak?"},
-	{title: `⫹🔥 › 𐐪-〚 Virtex 〛-𐑂`, rowId: ".? virus", description: "╰► Jangan kak bahaya -𐑂"},
+	    {title: `〚 All Menu 〛`, rowId: ".? all", description: "╰► Semua menu cuy"},
+	    {title: `〚 Rpg 〛`, rowId: ".? rpg", description: "╰► Calon anak petualang nih"},
+	{title: `〚 Exp 〛`, rowId: ".? xp", description: "╰► Kalau dah level 100 dapat Xia"},
+	{title: `〚 Game 〛`, rowId: ".? game", description: "╰► Main Game bareng xia yuk"},
+	{title: `〚 Fun 〛`, rowId: ".? fun", description: "╰► Gabut ya yok xia hibur"},
+	{title: `〚 Kerang 〛`, rowId: ".? kerangajaib", description: "╰► Mau tanya apa banh"},
+	{title: `〚 Quotes 〛`, rowId: ".? quotes", description: "╰► Kata kata nya coy"},
+	{title: `〚 Anime 〛`, rowId: ".? anime", description: "╰► KMU WIBU YA"},
+	{title: `〚 Nsfw 〛`, rowId: ".? nsfw", description: "╰► Najis masi PMO."},
+	{title: `〚 Premium 〛`, rowId: ".? premium", description: "╰► Only users premium"},
+	{title: `〚 Anonymous chat 〛`, rowId: ".? anonymous", description: "╰► Ngomong sama ytta"},
+	{title: `〚 Islamic 〛`, rowId: ".? quran", description: "╰► Tobat coy"},
+	{title: `〚 Internet 〛`, rowId: ".? internet", description: "╰► Pakai dengan bijak ya"},
+	{title: `〚 Downloader 〛`, rowId: ".? downloader", description: "╰► Dowload apaan tu"},
+	{title: `〚 Stikers 〛`, rowId: ".? stiker", description: "╰► Kalau bikin sticker jangan di spam"},
+	{title: `〚 Nulis 〛`, rowId: ".? nulis", description: "╰► Hati-hati ke tawan"},
+	{title: `〚 Audio 〛`, rowId: ".? audio", description: "╰► Audio coy biar ga suntuk"},
+	{title: `〚 Group 〛`, rowId: ".? group", description: "╰► Menu settingan buat group mu"},
+	{title: `〚 Admin 〛`, rowId: ".? admin", description: "╰► Admin Only"},
+	{title: `〚 Database 〛`, rowId: ".? database", description: "╰► Simpen apa gitu di bot"},
+	{title: `〚 Tools 〛`, rowId: ".? tools", description: "╰► Butuh apa aja bot akan bantu"},
+	{title: `️️〚 Info 〛`, rowId: ".? info", description: "╰► Info nya coy"},
+	{title: `〚 Owner 〛`, rowId: ".? owner", description: "╰► Only Developer"},
+	{title: `〚 Maker 〛`, rowId: ".? maker", description: "╰► Bikin logo apa yak"},
+	{title: `〚 Store 〛`, rowId: ".? store", description: "╰► Anak jebeh ya coy"},
+	{title: `〚 Virtex 〛`, rowId: ".? virus", description: "╰► Owner Only"},
 	]
     },{
-	title: `${htki} ▮𝗜𝗻𝗳𝗼 」 ${htka}`,
+	title: `${htki} ▮EVENT 」 ${htka}`,
 	rows: [
-	    {title: `💬 ∫ » Event «`, rowId: ".event", description: "✧ Nyari diskon? hahaha >.</"},
-	    {title: `🎳 ∫ » Version «`, rowId: ".cekversi", description: "✧ Mau ngapain ya?..."},
-	    {title: `🎁 ∫ » Referal «`, rowId: ".ref", description: "✧ Bagikan code undangan biar dapat hadiah...."},
-	    {title: `🔭 ∫ » Script «`, rowId: ".sc", description: `✧ Source Code ${namebot}`},
-	    {title: `📮 ∫ » Rules «`, rowId: ".rules", description: `✧ Peraturan menggunakan ${namebot}`},
-	    {title: `💰 ∫ » Donasi «`, rowId: ".donasi", description: '✧ Support BOT agar on 1 Minggu non stop'},
-	  {title: `✨ ∫ » Rating «`, rowId: ".rate", description: '✧ Support BOT agar Semangat update'},
-	  {title: `🌸 ∫ » Group «`, rowId: ".groupbot", description: '✧ Jangan lupa mampir ya...'},
-	  {title: `🎖️ ∫ » Thanks To «`, rowId: ".tqto", description: '✧ Kawan-kawan Yg membantu pembuatan bot ini...'},
-	  {title: `☎️ ∫ » Kata Penutup «`, rowId: ".galau", description: '✧ Terima kasih yang udah menggunakan bot ini dengan baik (≧▽≦)'},
+	    {title: `📦 Event`, rowId: ".event", description: "✧ Chek yok"},
+	    {title: `📦 Version`, rowId: ".cekversi", description: "✧ Mau ngapain cuy"},
+	    {title: `📝 Rules`, rowId: ".rules", description: `✧ Peraturan menggunakan ${namebot}`},
+	    {title: `💰 Donasi`, rowId: ".donasi", description: '✧ Support Xia Yuk'},
+	  {title: `📮 Rating`, rowId: ".rate", description: '✧ Support Xia biar semangat ya'},
+	  {title: `📦 Group`, rowId: ".groupbot", description: '✧ Masuk grub Xia WAJIB'},
+	  {title: `🎖️ Thanks To`, rowId: ".tqto", description: '✧ Kawan-kawan Yg Udah buat Xia hidup'},
       ]
     },
 ]
 
 let tek = `✧────···[ Dashboard ]···────✧
 *${ucapan()} ${conn.getName(m.sender)}*
-╭━━━━━━━━━━━━━━━━┈─✧
-┴
-│⬡ Aktif selama ${mpt}
-│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│⬡ Prefix : [ ${_p} ]
-│⬡ *${Object.keys(global.db.data.users).length}* Pengguna
-│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-┬
-├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ : 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯
-┴ ▸ *ᴏᴡɴᴇʀ :𝙆𝘼𝙃𝙁𝙄-𝙓𝘿
-✧
+┌––––––––––––––––––❐
+│「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
+└┬❏ 「 ${conn.getName(m.sender)} 」
+┌┤━━━━━━━━━━━━━━━━┈─⳹
+│  「 USER INFO 」
+│${emot} ᴛᴀɢs: @${m.sender.split`@`[0]}
+│${emot} sᴛᴀᴛᴜs: ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+│${emot} ᴘʀᴇᴍɪᴜᴍ: ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+│${emot} ʟɪᴍɪᴛ: ${usrs.limit}
+│${emot} ʟᴇᴠᴇʟ: ${usrs.level}
+│${emot} ʀᴏʟᴇ: ${usrs.role}${usrs.premiumTime > 1 ? `
+├━━━━━━━━━━━━━━━━┈─⳹
+│  「 INFO BOT 」
+│${emot} ᴛɪᴍᴇ: ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+│${emot} ᴜsᴇʀs: ${Object.keys(global.db.data.users).length}
+│${emot} Aktif selama ${mpt}
+│${emot} ${Object.keys(global.db.data.users).length} Pengguna
+│${emot} ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+├━━━━━━━━━━━━━━━━┈─⳹
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
+│ Jan Spam Dasar User
 ╰━━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
