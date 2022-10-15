@@ -47,19 +47,19 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/kahfiofc0' //Link Instagrammu
+global.sig = 'https://instagram.com' //Link Instagrammu
 global.sgh = 'https://github.com/Mshunone' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/I0prmYcZhKrCye0kiclzyt'
+global.sgc = 'https://chat.whatsapp.com'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
 global.pdana = '085380166282' //Nomor Danamu
 global.ppulsa = '085295374964' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://github.com/MaxxyBotz' //Link Saweriamu Kalo Nggada Ketik - aja
+global.psaweria = 'https://github.com' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285295374964' //Nomor Bot
+global.nomorbot = '6283805685278' //Nomor Bot
 global.nomorown = '6285380166282' //Nomor Owner
 global.namebot = '𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯' //Nama Bot
 global.nameown = '𝙆𝘼𝙃𝙁𝙄-𝙓𝘿 ' // Nama Owner
@@ -70,8 +70,8 @@ global.owner = [
   ['6285380166282', '𝙆𝘼𝙃𝙁𝙄-𝙓𝘿🎐', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods =   ['6285380166282'] // Want some help?
-global.prems =  ['6285380166282'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.mods =   ['6283805685278'] // Want some help?
+global.prems =  ['6283805685278'] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 global.lolkey = 'apikeymu'
