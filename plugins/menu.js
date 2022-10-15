@@ -524,7 +524,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Kak ^ω^', 
+    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Yak', 
 
     orderTitle: `▮Menu ▸`,
 
@@ -597,7 +597,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://youtu.be/lqa4vJIXTi8'
+                        url: 'wa.me/62805685278'
                     }
                 },
                 {
@@ -608,19 +608,19 @@ const listMessage = {
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner🎐',
+                        displayText: 'Owner',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Speed⚡',
+                        displayText: 'Speed',
                         id: '.ping'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi💵',
+                        displayText: 'Donasi',
                         id: '.donasi'
                     }
                 },
@@ -659,8 +659,8 @@ const listMessage = {
       
     //------------------- 2BUTTON LOCATION
     conn.sendButton(m.chat, `${ucapan()}﹗`, text.trim(), `${timeimg()}`, [
-      ['🎏 ᴍᴇɴᴜ', `${_p}menu`],
-      ['⚡ sᴘᴇᴇᴅᴛᴇsᴛ', `${_p}speedtest`]
+      ['☲ MENU', `${_p}menu`],
+      ['sᴘᴇᴇᴅᴛᴇsᴛ', `${_p}speedtest`]
     ], m, {asLocation: true})
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
