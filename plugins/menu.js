@@ -321,24 +321,23 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     },
 ]
 
-let tek = `✧────···[ Dashboard ]···────✧
-*${ucapan()} ${conn.getName(m.sender)}*
-╭━━━━━━━━━━━━━━━━┈─✧
-┴
-│⬡ Aktif selama ${mpt}
-│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│⬡ Prefix : [ ${_p} ]
-│⬡ *${Object.keys(global.db.data.users).length}* Pengguna
-│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-┬
-├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ : 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯
-┴ ▸ *ᴏᴡɴᴇʀ :𝙆𝘼𝙃𝙁𝙄-𝙓𝘿
-✧
-┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
-╰━━━━━━━━━━━━━━━━┈─◂`
+let tek = `✧────···[ DASHBOARD ]···────✧
+┌━━━━━━━━━━━━━━━━┈─❐
+│「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
+└┬✥ 「 *${ucapan()} ${conn.getName(m.sender)}* 」
+╭┤━━━━━━━━━━━━━━┈─✧
+┴☰ INFO BOT
+│📦 Aktif selama ${mpt}
+│📦 Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│📦 Prefix : [ ${_p} ]
+│📦 *${Object.keys(global.db.data.users).length}* Pengguna
+│📦 *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+│📦 *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+├━━━━━━━━━━━━━━━┈ ⳹
+┴ ▸ᴀᴜᴛʜᴏʀ : SaxiaBotz
+┬ ▸ᴏᴡɴᴇʀ : Marxel
+╰━━━━━━━━━━━━━━━┈─◂`
+
 const listMessage = {
   text: tek,
   footer: wm2,
