@@ -12,26 +12,26 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
 📮 *Note:*
 • Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
+• Owner berhak tak membalas cht
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
 
 //------------ BIO
-let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
+let ppown = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : 𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯
-${htjava} *✉️ Nama RL* : Rahasia🗿
-${htjava} *♂️ Gender* : Boys
-${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 
-${htjava} *🎨 Umur* : 18
-${htjava} *🧮 Kelas* : 12
-${htjava} *🧩 Hobby* : Nonton Donghua, Chatting, Musik, Recode script bot
-${htjava} *💬 Sifat* : Idiot, Tidak Ramah, Bilek, Prik, Nolep
-${htjava} *🗺️ Tinggal* : Indo, Aceh, Aceh Timur
-${htjava} *❤️ Suka* : kucing
-${htjava} *💔 Benci* : autis, seleb
+${htjava} *💌 Nama* : Marxell
+${htjava} *✉️ Nama RL* : Ya itu
+${htjava} *♂️ Gender* : Berbatang
+${htjava} *🕋 Agama* : Private
+${htjava} *⏰ Tanggal lahir* : 248
+${htjava} *🎨 Umur* : -
+${htjava} *🧮 Kelas* : -
+${htjava} *🧩 Hobby* : Belajar Ngoding, Futsal dll
+${htjava} *💬 Sifat* : Baik, Agak sibuk
+${htjava} *🗺️ Tinggal* : Indonesia - JawaTimur - Madiun
+${htjava} *❤️ Suka* : Kucing dan Waifu
+${htjava} *💔 Benci* : User kont
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Fay Cat's Kun
