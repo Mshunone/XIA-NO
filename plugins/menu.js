@@ -14,35 +14,35 @@ const defaultMenu = {
   before: `
 ╭─────═[ INFO USER ]═─────⋆
 │╭───────────────···
-┴│☂︎ *Name:* %name
-⬡│☂︎ *Tag:* %tag
-⬡│☂︎ *Premium:* %prems
-⬡│☂︎ *Limit:* %limit
-⬡│☂︎ *Money:* %money
-⬡│☂︎ *Role:* %role
-⬡│☂︎ *Level:* %level [ %xp4levelup Xp For Levelup]
+┴│✗• *Name:* %name
+⬡│✗• *Tag:* %tag
+⬡│✗• *Premium:* %prems
+⬡│✗• *Limit:* %limit
+⬡│✗• *Money:* %money
+⬡│✗• *Role:* %role
+⬡│✗• *Level:* %level [ %xp4levelup Xp For Levelup]
 ⬡│☂︎ *Xp:* %exp / %maxexp
-┬│☂︎ *Total Xp:* %totalexp
+┬│✗• *Total Xp:* %totalexp
 │╰────────────────···
 ┠─────═[ TODAY ]═─────⋆
 │╭────────────────···
 ┴│    *${ucapan()} %name!*
-⬡│☂︎ *Tanggal:* %week %weton
-⬡│☂︎ *Date:* %date
-⬡│☂︎ *Tanggal Islam:* %dateIslamic
-┬│☂︎ *Waktu:* %time
+⬡│✗• *Tanggal:* %week %weton
+⬡│✗• *Date:* %date
+⬡│✗• *Tanggal Islam:* %dateIslamic
+┬│✗• *Waktu:* %time
 │╰────────────────···
 ┠─────═[ INFO BOT ]═─────⋆
 │╭────────────────···
-┴│☂︎ *Nama Bot:* %me
-⬡│☂︎ *Mode:* %mode
-⬡│☂︎ *Prefix:* [ *%_p* ]
-⬡│☂︎ *Baileys:* Multi Device
-⬡│☂︎ *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-⬡│☂︎ *Platform:* %platform
-⬡│☂︎ *Type:* Node.Js
-⬡│☂︎ *Uptime:* %muptime
-┬│☂︎ *Database:* %rtotalreg dari %totalreg
+┴│✗• *Nama Bot:* %me
+⬡│✗• *Mode:* %mode
+⬡│✗• *Prefix:* [ *%_p* ]
+⬡│✗• *Baileys:* Multi Device
+⬡│✗• *Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+⬡│✗• *Platform:* %platform
+⬡│✗• *Type:* Node.Js
+⬡│✗• *Uptime:* %muptime
+┬│✗• *Database:* %rtotalreg dari %totalreg
 │╰────────────────···
 ╰──────────═┅═──────────
 
@@ -308,13 +308,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	{title: `〚 Virtex 〛`, rowId: ".? virus", description: "╰► Owner Only"},
 	]
     },{
-	title: `${htki} ▮EVENT 」 ${htka}`,
+	title: `${htki} ▮GA TAU GW JUGA 」 ${htka}`,
 	rows: [
-	    {title: `📦 Event`, rowId: ".event", description: "✧ Chek yok"},
-	    {title: `📦 Version`, rowId: ".cekversi", description: "✧ Mau ngapain cuy"},
 	    {title: `📝 Rules`, rowId: ".rules", description: `✧ Peraturan menggunakan ${namebot}`},
 	    {title: `💰 Donasi`, rowId: ".donasi", description: '✧ Support Xia Yuk'},
-	  {title: `📮 Rating`, rowId: ".rate", description: '✧ Support Xia biar semangat ya'},
 	  {title: `📦 Group`, rowId: ".groupbot", description: '✧ Masuk grub Xia WAJIB'},
 	  {title: `🎖️ Thanks To`, rowId: ".tqto", description: '✧ Kawan-kawan Yg Udah buat Xia hidup'},
       ]
@@ -334,8 +331,8 @@ let tek = `✧────···[ DASHBOARD ]···────✧
 │📦 *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 │📦 *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ├━━━━━━━━━━━━━━━┈ ⳹
-┴ ▸ᴀᴜᴛʜᴏʀ : SaxiaBotz
-┬ ▸ᴏᴡɴᴇʀ : Marxel
+┴ ▸ᴀᴜᴛʜᴏʀ : ©SaxiaBotz
+┬ ▸ᴏᴡɴᴇʀ : ®Marxel
 ╰━━━━━━━━━━━━━━━┈─◂`
 
 const listMessage = {
@@ -343,7 +340,7 @@ const listMessage = {
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `Klik Disini ⎙`, 
+  buttonText: `Klik Ini ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -524,7 +521,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Yak', 
+    message: '[❗] Memuat Menu ' + teks + '...\n Sabar cuy', 
 
     orderTitle: `▮Menu ▸`,
 
@@ -660,7 +657,7 @@ const listMessage = {
     //------------------- 2BUTTON LOCATION
     conn.sendButton(m.chat, `${ucapan()}﹗`, text.trim(), `${timeimg()}`, [
       ['☲ MENU', `${_p}menu`],
-      ['sᴘᴇᴇᴅᴛᴇsᴛ', `${_p}speedtest`]
+      ['PING', `${_p}ping`]
     ], m, {asLocation: true})
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
