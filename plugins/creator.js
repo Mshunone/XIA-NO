@@ -33,6 +33,10 @@ ${htjava} *🗺️ Tinggal* : Indonesia - JawaTimur - Madiun
 ${htjava} *❤️ Suka* : Kucing dan Waifu
 ${htjava} *💔 Benci* : User kont
 
+${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
+${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Fay Cat's Kun
+${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
+
 •·––––––––––––––––––––––––––·•
 `
   let teks = 'Pilih dibawah Ini sesuaikan kebutuhan!'
@@ -57,7 +61,7 @@ const sections = [
 const listMessage = {
   text: teks,
   footer: null,
-  title: `${htki} *OWNER* ${htka}`,
+  title: `${htki} *OWNER GW* ${htka}`,
   buttonText: "Click Here !",
   sections
 }
