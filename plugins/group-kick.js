@@ -16,7 +16,7 @@ handler.tags = ['group']
 handler.command = /^(kick)$/i
 
 handler.owner = true
-handler.group = false
+handler.group = true
 handler.botAdmin = true
 
 export default handler
