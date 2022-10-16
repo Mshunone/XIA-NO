@@ -24,7 +24,7 @@ ${htjava} *💌 Nama* : Marxell
 ${htjava} *✉️ Nama RL* : Ya itu
 ${htjava} *♂️ Gender* : Berbatang
 ${htjava} *🕋 Agama* : Private
-${htjava} *⏰ Tanggal lahir* : 2-4-8
+${htjava} *⏰ Tanggal lahir* : 248
 ${htjava} *🎨 Umur* : -
 ${htjava} *🧮 Kelas* : -
 ${htjava} *🧩 Hobby* : Belajar Ngoding, Futsal dll
@@ -32,11 +32,10 @@ ${htjava} *💬 Sifat* : Baik, Agak sibuk
 ${htjava} *🗺️ Tinggal* : Indonesia - JawaTimur - Madiun
 ${htjava} *❤️ Suka* : Kucing dan Waifu
 ${htjava} *💔 Benci* : User kont
-
+•·––––––––––––––––––––––––––·•
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Fay Cat's Kun
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
-
 •·––––––––––––––––––––––––––·•
 `
   let teks = 'Pilih dibawah Ini sesuaikan kebutuhan!'
@@ -49,7 +48,7 @@ const sections = [
 	{title: "🌱 • Script", rowId: ".sc"},
 	]
     },{
-	title: `${htjava} SUPPORT CK –––––––·•`,
+	title: `${htjava} SUPPORT –––––––·•`,
 	rows: [
 	    {title: "💎 • Donasi", rowId: ".owner nomor"},
 	{title: "💎 • Sewa", rowId: ".sewa"},
