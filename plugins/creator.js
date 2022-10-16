@@ -11,11 +11,11 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak tak membalas cht
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• Gwa gak nerima save contact
+• Gwa berhak tak membalas cht
+• Spam/menggunakan kata kotor ga gw respon
+• Selain tenteang bot no respon
+• Jangan Telp Asw`
 
 //------------ BIO
 let ppown = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
@@ -24,7 +24,7 @@ ${htjava} *💌 Nama* : Marxell
 ${htjava} *✉️ Nama RL* : Ya itu
 ${htjava} *♂️ Gender* : Berbatang
 ${htjava} *🕋 Agama* : Private
-${htjava} *⏰ Tanggal lahir* : 248
+${htjava} *⏰ Tanggal lahir* : 2-4-8
 ${htjava} *🎨 Umur* : -
 ${htjava} *🧮 Kelas* : -
 ${htjava} *🧩 Hobby* : Belajar Ngoding, Futsal dll
@@ -33,26 +33,23 @@ ${htjava} *🗺️ Tinggal* : Indonesia - JawaTimur - Madiun
 ${htjava} *❤️ Suka* : Kucing dan Waifu
 ${htjava} *💔 Benci* : User kont
 
-${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
-${htjava} *🇫  ғᴀᴄᴇʙᴏᴏᴋ* : Fay Cat's Kun
-${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = 'Pilih dibawah Ini sesuaikan kebutuhan!'
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
-	{title: "🌎 • Script", rowId: ".sc"},
+	    {title: "👻 • Nomor", rowId: ".owner nomor"},
+	{title: "👻 • Biodata", rowId: ".owner bio"},
+	{title: "🌱 • Script", rowId: ".sc"},
 	]
     },{
-	title: `${htjava} SUPPORT ME –––––––·•`,
+	title: `${htjava} SUPPORT CK –––––––·•`,
 	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	    {title: "💎 • Donasi", rowId: ".owner nomor"},
+	{title: "💎 • Sewa", rowId: ".sewa"},
+	{title: "💎 • Buy Premium", rowId: ".premium"},
 	]
   },
 ]
