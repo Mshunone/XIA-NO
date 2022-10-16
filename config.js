@@ -61,7 +61,7 @@ global.psaweria = '---' //Link Saweriamu Kalo Nggada Ketik - aja
 /*============== NOMOR ==============*/
 global.nomorbot = '6283111136642' //Nomor Bot
 global.nomorown = '6283805685278' //Nomor Owner
-global.namebot = '𝙔𝙩 𝙈𝙖𝙭𝙭𝙮 𝘽𝙤𝙩𝙯' //Nama Bot
+global.namebot = '©Saxia˘Botz' //Nama Bot
 global.nameown = 'Marxel-?' // Nama Owner
 
 
@@ -99,8 +99,8 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 SaxiaBotz  」' //Main Watermark
-global.wm2 = 'Saxia˘Botz'
+global.wm = '                「 ©SaxiaBotz  」' //Main Watermark
+global.wm2 = '©Saxia˘Botz'
 global.wm3 = '⫹SaxiaBotz⫺'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
@@ -369,7 +369,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
 global.stickauth = `SaxiaMD  Whatsapp BOT\nwa.me/${global.nomorbot}`
-global.packname = 'Saxia-XD'
+global.packname = 'Wa.me/623111136642'
 global.packname2 = 'Saxia-XDv1'
 
 global.multiplier = 38 // The higher, The harder levelup
