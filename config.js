@@ -100,7 +100,7 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '                「 ©SaxiaBotz  」' //Main Watermark
-global.wm2 = '©Saxia˘Botz'
+global.wm2 = '「 ©Saxia˘Botz 」'
 global.wm3 = '⫹SaxiaBotz⫺'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
