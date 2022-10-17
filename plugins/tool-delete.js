@@ -11,7 +11,7 @@ return conn.sendMessage(m.chat, { delete: m.quoted.vM.key })
 handler.help = ['del', 'delete', 'https://chat.whatsapp.com']
 handler.tags = ['tools']
 
-handler.customPrefix = /^del(ete)?$/, /chat.whatsapp.com/i
+handler.customPrefix = /chat.whatsapp.com/i
 handler.command = /^del(ete)?$/i
 
 export default handler
