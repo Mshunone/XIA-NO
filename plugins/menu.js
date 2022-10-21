@@ -261,11 +261,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	title: `${htki} ▮STATUS BOT 」 ${htka}`,
 	rows: [
 	    {title: `👻Info Bot`, rowId: ".info", description: "✧ Info nya Bot"},
-	    {title: `👻 Owner`, rowId: ".owner", description: "✧ Ini Room Developer ku ^~^"},
 	{title: `👻 Request Fitur`, rowId: ".request", description: "✧ Request Fitur menarik ke BOT"},
 	{title: `👻 Bot Stats`, rowId: ".botinfo", description: "✧ Menampilkan Status xia"},
-	{title: `👻 Test Speed`, rowId: ".testspeed", description: "✧ Test Install Speed BOT"},
-	{title: `👻 Speed`, rowId: ".speed", description: "✧ Kecepatan Respon Xia "},
 	]
     },{
 	title: `${htki} ▮INFO BOT 」 ${htka}`,
@@ -274,8 +271,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	    {title: `『 Buy Script BOT 』`, rowId: ".owner", description: "➣ list harga script BOT"},
 	    {title: `『 UP Premium 』`, rowId: ".premium", description: "➣ list harga upgrade premium"},
 	    {title: `『 Get Hadiah 』`, rowId: ".daily", description: '➣ Mau hadiah nggak?'},
-	{title: `『 Rating 』`, rowId: ".rate", description: '➣ Kasi Rate rendah Gw banned :v :/'},
-	{title: `『 My Profile 』`, rowId: ".pp", description: '➣ Siapa ya kamu?...'},
 	]
 	},{
 	title: `${htki} ▮MENU NYA ${htka}`,
